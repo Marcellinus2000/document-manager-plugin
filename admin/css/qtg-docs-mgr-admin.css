@@ -1,0 +1,60 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    padding-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.layout form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card input,
+select {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #2A4FBB;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.card input[type="submit"] {
+    background-color: #2A4FBB;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card input[type="submit"]:hover {
+    background-color: #45a049;
+}
